@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.navigation.NavigationView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:background="@color/color_ffffff">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/dimen_20dp">
+
+            <RelativeLayout
+                android:id="@+id/rlProfileLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/ivProfilePic"
+                    android:layout_width="@dimen/dimen_60dp"
+                    android:layout_height="@dimen/dimen_60dp"
+                    app:civ_border_color="@color/colorPrimary"
+                    app:civ_border_width="@dimen/dimen_1dp"
+                    android:src="@drawable/ic_user_placeholder"
+                    android:layout_centerVertical="true" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/dimen_14dp"
+                    android:layout_marginEnd="@dimen/dimen_14dp"
+                    android:layout_toStartOf="@+id/ivNextProfile"
+                    android:layout_toEndOf="@+id/ivProfilePic"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvName"
+                        style="@style/NavTextView"
+                        android:ellipsize="end"
+                        android:maxLines="2"
+                        android:paddingTop="0dp"
+                        android:paddingBottom="0dp" />
+
+                    <TextView
+                        android:id="@+id/tvEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:maxLines="2"
+                        android:textColor="@color/color_373737"
+                        android:textSize="@dimen/font_14sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/ivNextProfile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_next_with_circle" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_1dp"
+                android:layout_marginTop="@dimen/dimen_20dp"
+                android:layout_marginBottom="@dimen/dimen_20dp"
+                android:background="@color/color_979797" />
+
+
+            <TextView
+                android:id="@+id/tvMyths"
+                style="@style/NavTextView"
+                android:text="@string/text_first_aid_myths" />
+
+            <TextView
+                android:id="@+id/tvBasics"
+                style="@style/NavTextView"
+                android:text="@string/text_first_aid_basics" />
+
+            <TextView
+                android:id="@+id/tvEmergencyResponse"
+                style="@style/NavTextView"
+                android:text="@string/text_emergency_response" />
+
+            <TextView
+                android:id="@+id/tvPreventiveMeasures"
+                style="@style/NavTextView"
+                android:text="@string/text_preventive_measures" />
+
+            <TextView
+                android:id="@+id/tvCommonInHome"
+                style="@style/NavTextView"
+                android:text="@string/text_common_in_home_incidents" />
+
+            <TextView
+                android:id="@+id/tvOutdoorEvents"
+                style="@style/NavTextView"
+                android:text="@string/text_outdoor_events" />
+
+            <TextView
+                android:id="@+id/tvAnywhereEvents"
+                style="@style/NavTextView"
+                android:text="@string/text_anywhere_events" />
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvSeriousIncidents"-->
+<!--                style="@style/NavTextView"-->
+<!--                android:text="@string/text_serious_incidents" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvCommonConditions"-->
+<!--                style="@style/NavTextView"-->
+<!--                android:text="@string/text_common_conditions" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvEmergencyEvents"-->
+<!--                style="@style/NavTextView"-->
+<!--                android:text="@string/text_emergency_events" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvOneForTheRoad"-->
+<!--                style="@style/NavTextView"-->
+<!--                android:text="@string/text_one_for_the_road" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvFirstAidAtWork"-->
+<!--                style="@style/NavTextView"-->
+<!--                android:text="@string/text_first_aid_at_work" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvVacationSafety"-->
+<!--                style="@style/NavTextView"-->
+<!--                android:text="@string/text_vacation_safety" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvOtherSafetyConcerns"-->
+<!--                style="@style/NavTextView"-->
+<!--                android:text="@string/text_other_safety_concerns" />-->
+
+            <TextView
+                android:id="@+id/tvLogout"
+                style="@style/NavTextView"
+                android:text="@string/text_logout" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</com.google.android.material.navigation.NavigationView>

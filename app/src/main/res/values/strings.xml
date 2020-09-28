@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">First Aid</string>
+    <string name="app_title">First Aid\nand\nEmergency Techniques</string>
+    <string name="text_home_title">First Aid and Emergency Techniques</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Register</string>
+    <string name="text_login_sub_heading">Already have an account on First Aid?\nLog In below!</string>
+    <string name="text_your_email_address">Your Email Address</string>
+    <string name="text_email_address">Email Address</string>
+    <string name="text_password">Password</string>
+    <string name="text_forget_password">Forgot your Password?</string>
+    <string name="text_sub_heading_sign_up">Create a First Aid account now.</string>
+    <string name="text_first_name">First Name</string>
+    <string name="text_last_name">Last Name</string>
+    <string name="text_date_of_birth">Date of Birth</string>
+    <string name="text_male">Male</string>
+    <string name="text_female">Female</string>
+    <string name="text_other">Other</string>
+    <string name="text_heading_password_reset">Password Reset</string>
+    <string name="text_sub_heading_password_reset">We can send you a link to reset your password to the email address associated with your account.</string>
+    <string name="text_send_now">Send Now</string>
+    <string name="text_first_aid_myths">First-Aid Myths</string>
+    <string name="text_first_aid_basics">First-Aid Basics</string>
+    <string name="text_emergency_response">Emergency Response</string>
+    <string name="text_preventive_measures">Preventive Measures</string>
+    <string name="text_common_in_home_incidents">Common In-Home Incidents</string>
+    <string name="text_outdoor_events">Outdoor Events</string>
+    <string name="text_anywhere_events">Anywhere Events</string>
+    <string name="text_serious_incidents">Serious Incidents</string>
+    <string name="text_common_conditions">Common Conditions</string>
+    <string name="text_emergency_events">Emergency Events</string>
+    <string name="text_one_for_the_road">One for the Road</string>
+    <string name="text_first_aid_at_work">First-Aid at Work</string>
+    <string name="text_vacation_safety">Vacation Safety</string>
+    <string name="text_other_safety_concerns">Other Safety Concerns</string>
+    <string name="text_logout">Logout</string>
+</resources>

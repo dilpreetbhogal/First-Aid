@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@color/color_ffffff"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_with_back" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/dimen_14dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TextView.PrimaryColor.Header"
+                    android:text="@string/text_register" />
+
+                <TextView
+                    style="@style/TextView.SubHeader"
+                    android:text="@string/text_sub_heading_sign_up" />
+
+                <com.firstaid.util.customview.MaterialEditText
+                    android:id="@+id/etFirstName"
+                    style="@style/FloatingLabelEditText"
+                    android:hint="@string/text_first_name"
+                    android:inputType="textPersonName|textNoSuggestions|textCapWords"
+                    android:maxLength="@integer/name_max" />
+
+                <com.firstaid.util.customview.MaterialEditText
+                    android:id="@+id/etLastName"
+                    style="@style/FloatingLabelEditText"
+                    android:hint="@string/text_last_name"
+                    android:inputType="textPersonName|textNoSuggestions|textCapWords"
+                    android:maxLength="@integer/name_max" />
+
+                <com.firstaid.util.customview.MaterialEditText
+                    android:id="@+id/etDob"
+                    style="@style/FloatingLabelEditText"
+                    android:drawableEnd="@drawable/ic_calender"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:hint="@string/text_date_of_birth" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_14dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rbMale"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/text_male" />
+
+                    <RadioButton
+                        android:id="@+id/rbFemale"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/text_female" />
+
+                    <RadioButton
+                        android:id="@+id/rbOther"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/text_other" />
+                </RadioGroup>
+
+                <com.firstaid.util.customview.MaterialEditText
+                    android:id="@+id/etEmail"
+                    style="@style/FloatingLabelEditText"
+                    android:hint="@string/text_email_address"
+                    android:inputType="textEmailAddress|textNoSuggestions"
+                    app:met_floatingLabelAnimating="true" />
+
+                <com.firstaid.util.customview.MaterialEditText
+                    android:id="@+id/etPassword"
+                    style="@style/FloatingLabelEditText"
+                    android:hint="@string/text_password"
+                    android:imeOptions="actionDone"
+                    android:inputType="textPassword|textNoSuggestions"
+                    android:maxLength="@integer/password_max" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnRegister"
+                style="@style/Button.Primary"
+                android:layout_marginTop="@dimen/dimen_14dp"
+                android:text="@string/text_register" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

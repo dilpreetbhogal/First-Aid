@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#d73424</color>
+    <color name="colorPrimaryDark">#d73424</color>
+    <color name="colorAccent">#d73424</color>
+    <color name="color_ffffff">#FFFFFF</color>
+    <color name="color_FF0000">#FF0000</color>
+    <color name="color_979797">#979797</color>
+    <color name="color_CDCCCC">#CDCCCC</color>
+    <color name="color_373737">#373737</color>
+
+    <!-- Edit Text -->
+    <color name="edit_text_floating_label_text_color">@color/colorPrimary</color>
+    <color name="edit_text_additional_hint_text_color">@color/color_979797</color>
+    <color name="edit_text_line_color">@color/color_CDCCCC</color>
+    <color name="edit_text_text_color">@color/color_373737</color>
+    <color name="edit_text_hint_text_color">@color/colorPrimary</color>
+    <color name="edit_text_gray_hint_text_color">@color/color_979797</color>
+
+    <!-- Toolbar -->
+    <color name="toolbar_background_color">@color/color_ffffff</color>
+
+    <!-- Views -->
+    <color name="horizontal_line_color">@color/color_CDCCCC</color>
+</resources>

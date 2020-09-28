@@ -1,0 +1,101 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Edit Text -->
+    <!--Floating Labels EditText-->
+    <style name="FloatingLabelEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/dimen_14dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:longClickable">false</item>
+        <item name="android:textSize">@dimen/font_16sp</item>
+        <item name="met_floatingLabel">normal</item>
+        <item name="met_floatingLabelPadding">8dp</item>
+        <item name="met_floatingLabelTextSize">@dimen/floating_label_text_size</item>
+        <item name="met_floatingLabelTextColor">@color/edit_text_floating_label_text_color</item>
+        <item name="met_floatingLabelAdditionalTextColor">@color/edit_text_additional_hint_text_color</item>
+        <item name="met_hideUnderline">false</item>
+        <item name="met_primaryColor">@color/edit_text_line_color</item>
+        <item name="met_textColor">@color/edit_text_text_color</item>  <!-- text color -->
+        <item name="met_textColorHint">@color/edit_text_hint_text_color</item>
+        <item name="met_underlineColor">@color/edit_text_line_color</item>
+        <item name="met_errorColor">@color/color_FF0000</item>
+        <!--  <item name="met_typeface">fonts/Montserrat-Bold.ttf</item>  &lt;!&ndash; text font type &ndash;&gt;
+          <item name="met_accentTypeface">fonts/SFNSDisplay-Regular.ttf</item>  &lt;!&ndash; hint font type  &ndash;&gt;-->
+    </style>
+
+    <style name="horizontal_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dimen_1dp</item>
+        <item name="android:background">@color/horizontal_line_color</item>
+    </style>
+
+    <!-- Text View -->
+    <style name="TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- Text View Primary -->
+    <style name="TextView.PrimaryColor">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="TextView.PrimaryColor.Small">
+        <item name="android:textSize">@dimen/font_14sp</item>
+    </style>
+
+    <style name="TextView.PrimaryColor.Header">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/font_32sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextView.SubHeader">
+        <item name="android:layout_marginTop">@dimen/dimen_8dp</item>
+        <item name="android:layout_marginBottom">@dimen/dimen_14dp</item>
+        <item name="android:textColor">@color/color_373737</item>
+        <item name="android:textSize">@dimen/font_16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Button -->
+    <style name="Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/font_16sp</item>
+        <item name="android:textColor">@color/color_ffffff</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <style name="Button.Primary">
+        <item name="android:background">@drawable/button_selector_primary</item>
+    </style>
+
+    <style name="DatePickerDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+    </style>
+
+    <style name="NavTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/color_373737</item>
+        <item name="android:textSize">@dimen/font_16sp</item>
+        <item name="android:paddingTop">@dimen/dimen_12dp</item>
+        <item name="android:paddingBottom">@dimen/dimen_12dp</item>
+        <item name="android:drawablePadding">@dimen/dimen_20dp</item>
+        <item name="android:background">@drawable/background_white_with_ripple_effect</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:clickable">true</item>
+    </style>
+</resources>
